@@ -30,7 +30,7 @@ def activatehelp(number):
 
 @app.route('/register/<user>')
 def register(user):
-    return '<h1>%s Whatsapp +1 415 523 8886 with code join daily-frame.</h1><br><a href="/">BACK</a>' % user
+    return '<div style="text-align: center; "><h1>%s Whatsapp +1 415 523 8886 with code join daily-frame.</h1><br><a href="/">BACK</a></div>' % user
 
 
 @app.route('/',methods = ['POST', 'GET'])
