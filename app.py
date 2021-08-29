@@ -8,7 +8,7 @@ import pandas as pd
 df1=pd.read_csv("data.csv")
  
 account_sid = 'ACe601f95cfb82423582b96f77ea0f9af7' 
-auth_token = 'fbd9551e0a61929f24b91170b610183a' 
+auth_token = '0b950f1ade33ce75761e18dab6aee2b0' 
 client = Client(account_sid, auth_token) 
 
 app= Flask(__name__)
